@@ -1,6 +1,6 @@
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+$(call inherit-product, vendor/lego/config/common_full_phone.mk)
 
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/lego/config/nfc_enhanced.mk)
 
 $(call inherit-product, device/htc/m7spr/full_m7spr.mk)
 
@@ -10,5 +10,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="htc/sprint_wwe/m7wls:4.4.2/KOT49H/303687.4:user/release-keys" \
     PRIVATE_BUILD_DESC="4.06.651.4 CL303687 release-keys"
 
-PRODUCT_NAME := slim_m7spr
+PRODUCT_NAME := lego_m7spr
 PRODUCT_DEVICE := m7spr
